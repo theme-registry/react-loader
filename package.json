@@ -1,0 +1,23 @@
+{
+  "name": "@theme-registry/react-loader",
+  "version": "0.1.0",
+  "description": "React loader strategy for @theme-registry/toolkit",
+  "license": "MIT",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "@theme-registry/toolkit": ">=0.1.0"
+  }
+}

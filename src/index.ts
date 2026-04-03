@@ -2,7 +2,7 @@ export interface ReactLoaderOptions {
   useSuspense?: boolean
 }
 
-import type { LoaderStrategy, TemplateRegistryEntry } from 'theme-registry-toolkit'
+import type { LoaderStrategy, TemplateRegistryEntry } from '@theme-registry/toolkit'
 
 export function createReactLoader (options: ReactLoaderOptions = {}): LoaderStrategy {
   const { useSuspense = true } = options

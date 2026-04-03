@@ -1,8 +1,12 @@
 {
   "name": "@theme-registry/react-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React loader strategy for @theme-registry/toolkit",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theme-registry/react-loader.git"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
